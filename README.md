@@ -1,6 +1,7 @@
 # -Fake-News-Detection
 📰 Fake News Detection:
 This project uses machine learning to classify news as real or fake using text data.
+Dataset link:https://www.kaggle.com/datasets/studymart/nlp-fake-news
 
 🔧 Models Used
 Logistic Regression
