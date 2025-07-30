@@ -1,23 +1,36 @@
 # -Fake-News-Detection
 📰 Fake News Detection:
+
 This project uses machine learning to classify news as real or fake using text data.
+
 Dataset link:https://www.kaggle.com/datasets/studymart/nlp-fake-news
 
-🔧 Models Used
-Logistic Regression
+🔍 Overview:
 
-Naive Bayes
+1.Preprocesses text using NLTK (tokenization, stopword removal, lemmatization)
 
-Random Forest
+2.Converts text into TF-IDF vectors
 
-Gradient Boosting
+3.Trains models: Logistic Regression, MultinomialNB, and BernoulliNB
 
-🛠 Features
-TF-IDF text vectorization
+4.Evaluates using accuracy, confusion matrix, and ROC-AUC
 
-Accuracy, precision, recall, F1-score
+✅ Results:
 
-Confusion matrix & ROC curve visualization
-📈 Notes
-Gradient Boosting and Logistic Regression perform best.
-Further improvement possible using deep learning (e.g., BERT).
+Model	Accuracy:
+
+Logistic Regression	~95.1%
+
+Multinomial Naive Bayes	~87.7%
+
+Bernoulli Naive Bayes	~85.5%
+
+📊 Tools Used:
+
+1.Python, Pandas, Scikit-learn, NLTK
+
+2.TF-IDF for vectorization
+
+3.Seaborn, Matplotlib, WordCloud for visuals
+
+
